@@ -573,3 +573,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# QMI
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor
