@@ -19,6 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from kipper device
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
+$(call inherit-product-if-exists, device/bloatware/config.mk)
 
 # Inherit some common komodo stuff.
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
