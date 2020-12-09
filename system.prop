@@ -215,3 +215,4 @@ ro.hdmi.mirror.enable=true
 ro.min.fling_velocity=140
 ro.max.fling_velocity=40000
 
+org.komodo.maintainer=es marjan x SalmanShaa
