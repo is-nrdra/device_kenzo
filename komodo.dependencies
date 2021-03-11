@@ -1,0 +1,8 @@
+[
+ {
+     "remote": "github",
+     "repository"  : "tragedy31/hardware_qcom_audio",
+     "target_path" : "hardware/qcom-caf/msm8952/audio",
+     "branch"      : "lineage-17.1-caf-msm8952"
+ },
+ {
