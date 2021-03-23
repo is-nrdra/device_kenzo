@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_kenzo.mk
+    $(LOCAL_DIR)/lineage_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_kenzo-userdebug \
-    komodo_kenzo-eng
+    lineage_kenzo-userdebug \
+    lineage_kenzo-eng

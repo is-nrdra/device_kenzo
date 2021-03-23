@@ -21,17 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
 $(call inherit-product-if-exists, device/bloatware/config.mk)
 
-# Inherit some common komodo stuff.
-$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
-KOMODO_BUILD_TYPE := RELEASE
-KOMODO_OFFICIAL := true
-CURRENT_BUILD_TYPE := nogapps
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := komodo_kenzo
+PRODUCT_NAME := lineage_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
